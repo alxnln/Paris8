@@ -1,0 +1,77 @@
+html {
+	--accent-color: #FFF5F0;
+	background-color: pink;
+}
+body {
+	max-width: 800px;
+	margin: 1em auto;
+	box-shadow: 0 0 0.5em 0.25em #E87D7D;
+	background-color: var(--accent-color);
+	padding: 0 2em 2em 2em;
+	border-radius: 2em;
+}
+header {
+	background-color:var(--accent-color);
+} 
+h1 {
+	text-align: center;
+	color: #DB161F;
+	font-family: sans-serif;
+}
+nav ul {
+	margin: 2em;
+	padding: 1em;
+	text-align: center;
+	background-color: pink;
+	border-radius: 2em;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a {
+	color: var(--accent-color);
+	text-decoration: none;
+	font-weight:bold;
+/*	padding: 3em;
+*/	padding: 1em;
+/*	border: 10px solid var(--accent-color);*/
+	border-radius: 1em 1em 0 0;	
+
+}
+
+nav ul li a.current {
+	opacity: 1.0;
+	background-color: var(--accent-color);
+	color: pink;
+	padding: 0.5em 4em 1em 4em;
+	border-bottom-color:#fff;
+*/
+}
+nav ul li a:hover {
+	opacity: 1.0;
+}
+main {
+	border:2px solid var(--accent-color); 
+	padding: 1em;
+	border-radius:0.5em;
+/*	border-bottom::2px dotted;
+*/
+}
+main h2 {
+	margin-top: 0;
+	border-bottom:2px dotted var(--accent-color);
+}
+main a {
+	color: var(--accent-color);
+}
+main li::marker, main h3 {
+	color: var(--accent-color);
+}
+footer {
+	padding: 0.5em;
+}
+footer p {
+	font-size: small;
+	text-align: center;
+	opacity: 0.5;
+}
