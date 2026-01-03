@@ -1,16 +1,3 @@
-#PAGES=$(wildcard pages/*.html)
-#all: $(subst pages/,public/,$(PAGES))
-#.PHONY: all
-#public/index.html: pages/index.html layout/before.html layout/after.html
-#	./scripts/buildpage.sh pages/index.html
-#public/cv.html: pages/cv.html layout/before.html layout/after.html
-#	./scripts/buildpage.sh pages/cv.html
-#public/projets.html: pages/projets.html layout/before.html layout/after.html
-#	./scripts/buildpage.sh pages/projets.html
-#public/liens.html: pages/liens.html layout/before.html layout/after.html
-#	./scripts/buildpage.sh pages/liens.html
-
-
 PAGES := $(wildcard pages/*.html)
 PUBLIC_PAGES := $(subst pages/,public/,$(PAGES))
 ASSETS := $(wildcard assets/*)
