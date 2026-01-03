@@ -1,6 +1,7 @@
 html {
 	--accent-color: #FDECEF;
 	background-color: var(--accent-color);
+	color: #E26A8D;
 	/*font-family: sans-serif;
 */}
 body {

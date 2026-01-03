@@ -1,3 +1,0 @@
- cat index.html | sed "s~{{DATE}}~$(date)~"
-git log --oneline --all --graph
-'git reset --hard HEAD' head dernier commmit, hard cest forcage de modif

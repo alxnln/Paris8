@@ -17,11 +17,10 @@ else
 	buildpage "${1}" > "public/${FILE}"
 fi
 
-function FILE {
-	index.html
-}
-function TITLE {
-	cat ../layout/before.html | sed "s~ ~~"
-}
-function DATE {
-	
+#function FILE {
+#	index.html
+#}
+#function TITLE {
+#	cat ../layout/before.html | sed "s~ ~~"
+#}
+#function DATE {	
